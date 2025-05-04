@@ -1,0 +1,23 @@
+.env
+
+.venv/
+__pycache__/
+.jupyter/
+.ipynb_checkpoints/
+.ipython/
+.vscode-server/
+
+stockfish/
+
+*.jsonl
+
+*dataset*/
+*outputs*/
+logs/
+results/
+wandb/
+
+*.png
+
+# These images are needed for the interactive game
+!Interactive/images/*.png
